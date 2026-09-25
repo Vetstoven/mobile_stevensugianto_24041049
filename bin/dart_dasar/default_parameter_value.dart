@@ -1,0 +1,11 @@
+void sayHello({String? firstName, String lastName = 'Default'}) {
+  print('Hello $firstName $lastName');
+}
+
+void main() {
+  sayHello(firstName: 'Dito', lastName: 'jeremy');
+  sayHello(lastName: 'hippo', firstName: 'gerad');
+  sayHello();
+  sayHello(firstName: 'stev');
+  sayHello(lastName: 'S...');
+}
